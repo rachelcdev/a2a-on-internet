@@ -1,0 +1,22 @@
+{
+  "name": "a2a-cloudflare-agent",
+  "version": "1.0.0",
+  "description": "A2A protocol-compliant agent deployed on Cloudflare Workers",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["a2a", "agent", "cloudflare", "workers"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "typescript": "^5.7.2",
+    "wrangler": "^3.94.0"
+  },
+  "dependencies": {
+    "uuid": "^11.0.3"
+  }
+}
